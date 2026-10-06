@@ -1,5 +1,5 @@
-public class publisher extends Member {
-    public publisher(String id, String name) {
+public class Publisher extends Member {
+    public Publisher(String id, String name) {
         super(id, name);
     }
     @Override
@@ -10,4 +10,7 @@ public class publisher extends Member {
     @Override
     public String toString() {
         return "Publisher{" +
-}
+        "id='" + getId() + '\'' +
+                ", name='" + getName() + '\'' +
+                '}';
+    }}
